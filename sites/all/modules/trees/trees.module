@@ -1,0 +1,50 @@
+<?php
+
+/**
+ * Implementation of hook_perm().
+ */
+function returns_perm()
+{
+    return array(
+        'trees user',
+        'administer trees'
+    );
+}
+
+/*
+ *  Implementation of hook_menu()
+ */
+
+function returns_menu()
+{
+    $items = array();
+    /*$items['contact-us'] = array(
+        'title' => 'Contact Us',
+        'page callback' => 'trees_contact_page',
+        'access arguments' => array('trees user'),
+    );
+    $items['contact-us/contact-form'] = array(
+        'title' => 'Email',
+        'page callback' => 'trees_contact_email_form',
+        'access arguments' => array('trees user'),
+    );
+    $items['contact-us'] = array(
+        'title' => 'Contact Us',
+        'page callback' => 'trees_contact_page',
+        'access arguments' => array('request return'),
+    );*/
+
+
+    $items['admin/store/orders/%uc_order/returns'] = array(
+        'title callback' => 'returns_order_tab_title',
+        'page callback' => 'returns_order_list',
+        'page arguments' => array(3),
+        'title arguments' => array(3),
+        'access arguments' => array('view all orders'),
+        'type' => MENU_LOCAL_TASK,
+        'weight' => 10,
+        'file' => 'pages.inc',
+    );
+
+    return $items;
+}

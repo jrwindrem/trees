@@ -15,8 +15,8 @@
                 <div id="header-top-inside-left-feed">
                     <div id="topSocial">
                     <ul>									
-                        <li><a class="twitter" href="http://twitter.com/morethanthemes" title="Follow Us on Twitter!"></a></li>
-                        <li><a class="facebook" href="http://www.facebook.com/pages/More-than-just-themes/194842423863081" title="Join Us on Facebook!"></a></li>
+                        <li><a class="twitter" href="http://twitter.com/The_Tree_Doctor" title="Follow Us on Twitter!"></a></li>
+                        <li><a class="facebook" href="http://www.facebook.com/pages/profile.php?id=5247250" title="Join Us on Facebook!"></a></li>
                         <li><a class="rss" title="RSS" href="#" title="Subcribe to Our RSS Feed"></a></li>
                     </ul>
                     </div>
