@@ -33,7 +33,7 @@ function returns_menu()
         'page callback' => 'trees_contact_page',
         'access arguments' => array('request return'),
     );*/
-
+/*
 
     $items['admin/store/orders/%uc_order/returns'] = array(
         'title callback' => 'returns_order_tab_title',
@@ -44,7 +44,36 @@ function returns_menu()
         'type' => MENU_LOCAL_TASK,
         'weight' => 10,
         'file' => 'pages.inc',
-    );
+    );*/
 
     return $items;
+}
+
+/*
+ * Implements hook_block_info()
+ *
+*/
+function trees_block_info() {
+    $blocks['twitter_pull'] = array(
+        'info' => t('Twitter Pull'),
+    );
+
+    return $blocks;
+}
+
+/*
+ * Implements hook_block_view()
+ *
+*/
+function trees_block_view($delta) {
+    $block = array();
+
+    switch ($delta) {
+        case 'twitter_pull':
+            $block['subject'] = t('Recent Tweets');
+            $block['content'] = twitter_pull_render('@Domotalk', '', 5);
+            break;
+    }
+
+    return $block;
 }

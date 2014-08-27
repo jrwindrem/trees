@@ -1,0 +1,5 @@
+name = trees
+description = Provides custom functions for demo trees.com.
+core = 7.x
+
+

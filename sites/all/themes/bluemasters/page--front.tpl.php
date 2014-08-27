@@ -3,7 +3,6 @@
     <!--header-top-->
     <div id="header-top">
         <div id="header-top-inside" class="clearfix container_12">
-        	
             <div class="grid_7">
                 <!--header-top-inside-left-->
                 <div id="header-top-inside-left"><?php print render($page['header']); ?></div>
@@ -13,13 +12,7 @@
             <div class="grid_2">
                 <!--header-top-inside-left-feed-->
                 <div id="header-top-inside-left-feed">
-                    <div id="topSocial">
-                    <ul>									
-                        <li><a class="twitter" href="http://twitter.com/your_twitter" title="Follow Us on Twitter!"></a></li>
-                        <li><a class="facebook" href="http://www.facebook.com/pages/your_facebook" title="Join Us on Facebook!"></a></li>
-                        <li><a class="rss" title="RSS" href="#" title="Subcribe to Our RSS Feed"></a></li>
-                    </ul>
-                    </div>
+
                 </div>
                 <!--EOF:header-top-inside-left-feed-->
             </div>
@@ -99,27 +92,36 @@
                 <!-- slider-item -->
                 <li class="slider-item">
                 <div class="slider-item-image">
-                <a href="<?php print url('node/3'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'bluemasters') . '/images/slide-image-3.jpg'; ?>"></a>
+                <a href="<?php print url('about-us'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'bluemasters') . '/images/arborists_talking.jpg'; ?>"></a>
                 </div>
-                <div class="slider-item-caption">About Bluemasters</div>
+                <div class="slider-item-caption">About Trees</div>
                 </li>
                 <!-- EOF: slider-item -->
                 
                 <!-- slider-item -->
                 <li class="slider-item">
                 <div class="slider-item-image">
-                <a href="<?php print url('node/2'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'bluemasters') . '/images/slide-image-2.jpg'; ?>"></a>
+                <a href="<?php print url('customer-feedback'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'bluemasters') . '/images/customer_review.jpg'; ?>"></a>
                 </div>
-                <div class="slider-item-caption">Our Portfolio</div>
+                <div class="slider-item-caption">Customer Reviews</div>
                 </li>
                 <!-- EOF: slider-item -->
                 
                 <!-- slider-item -->
                 <li class="slider-item">
                 <div class="slider-item-image">
-                <a href="<?php print url('node/1'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'bluemasters') . '/images/slide-image-1.jpg'; ?>"></a>
+                <a href="<?php print url('gallery'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'bluemasters') . '/images/work_sample.jpg'; ?>"></a>
                 </div>
-                <div class="slider-item-caption">Creation of Beaches</div>
+                <div class="slider-item-caption">View samples of our work</div>
+                </li>
+                <!-- EOF: slider-item -->
+
+                <!-- slider-item -->
+                <li class="slider-item">
+                <div class="slider-item-image">
+                <a href="<?php print url('library'); ?>"><img src="<?php print base_path() . drupal_get_path('theme', 'bluemasters') . '/images/library.jpg'; ?>"></a>
+                </div>
+                <div class="slider-item-caption">Visit our resource library</div>
                 </li>
                 <!-- EOF: slider-item -->
                 
@@ -209,7 +211,7 @@
             </div>
 
             <div class="grid_4">
-                <div id="footer-right">
+                <div id="footer-right" style = "float:right;">
                 	<?php print render($page['footer_right']);?>
                 </div>
             </div>            
@@ -239,18 +241,14 @@
             </div>
 
             <div class="grid_12">
-        	   <div class="credits-container" style="clear:both; padding-top:12px;">Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com">More than Themes</a></div>     
-            </div>
+        	</div>
 
         </div>
 
         <div class="container_12">
 
             <div class="grid_12">
-                <div class="credits-container clearfix">
-                    <a title="Brought To You By: www.SmashingMagazine.com" class="smashing" href="http://www.smashingmagazine.com" target="_blank">Brought to you By: www.SmashingMagazine.com</a>
-                    <a title="Drupalizing" class="drupalizing" href="http://www.drupalizing.com" target="_blank">Drupalizing</a> 
-                </div>
+
             </div>
 
         </div>  

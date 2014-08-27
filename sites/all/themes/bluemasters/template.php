@@ -24,7 +24,7 @@ if (theme_get_setting('slideshow_js','bluemasters')):
     $slideshow_random=theme_get_setting('slideshow_random','bluemasters');
     $slideshow_pause=theme_get_setting('slideshow_pause','bluemasters');
     $slideshow_touch=theme_get_setting('slideshow_touch','bluemasters');
-    $animation_time= (int) theme_get_setting('slideshow_animation_time','bluemasters')*1000;
+    $animation_time= (double) theme_get_setting('slideshow_animation_time','bluemasters')*1000;
 
 	drupal_add_js('
 		jQuery.noConflict();

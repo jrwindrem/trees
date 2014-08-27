@@ -10,20 +10,12 @@
                 <!--EOF:header-top-inside-left-->
             </div>
             
-            <div class="grid_2">
+            <!--<div class="grid_2">
                 <!--header-top-inside-left-feed-->
-                <div id="header-top-inside-left-feed">
-                    <div id="topSocial">
-                    <ul>									
-                        <li><a class="twitter" href="http://twitter.com/The_Tree_Doctor" title="Follow Us on Twitter!"></a></li>
-                        <li><a class="facebook" href="http://www.facebook.com/pages/profile.php?id=5247250" title="Join Us on Facebook!"></a></li>
-                        <li><a class="rss" title="RSS" href="#" title="Subcribe to Our RSS Feed"></a></li>
-                    </ul>
-                    </div>
-                </div>
+
                 <!--EOF:header-top-inside-left-feed-->
             </div>
-            
+
             <div class="grid_3">
                 <!--header-top-inside-left-right-->
                 <div id="header-top-inside-right"><?php print render($page['search_area']);?></div> 
@@ -136,14 +128,6 @@
                                 
                                 <div id="network" class="block">
                                     <h2>Network Connect</h2>  
-                                    <div class="network">
-                                        <a href="http://twitter.com/morethanthemes" class="twitter">Twitter</a>
-                                        <a href="http://www.facebook.com/pages/More-than-just-themes/194842423863081" class="facebook">Facebook</a>
-                                        <a href="http://www.flickr.com/photos/56103643@N07/" class="flickr">Flickr</a>
-                                        <a href="#" class="in">In</a>
-                                        <a href="#" class="tumblr">Tumblr</a>
-                                        <a href="http://www.youtube.com/morethanthemes" class="youtube">Youtube</a>
-                                    </div>
                                 </div>
                                     
                                 <?php print render($page['sidebar_first']); ?>
@@ -217,20 +201,12 @@
                 </div>
             </div>
 
-            <div class="grid_12">
-        	   <div class="credits-container" style="clear:both; padding-top:12px;">Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com">More than Themes</a></div>     
-            </div>
-
         </div>
 
         <div class="container_12">
 
             <div class="grid_12">
-                <div class="credits-container clearfix">
-                    <a title="Brought To You By: www.SmashingMagazine.com" class="smashing" href="http://www.smashingmagazine.com" target="_blank">Brought to you By: www.SmashingMagazine.com</a>
-                    <a title="Drupalizing" class="drupalizing" href="http://www.drupalizing.com" target="_blank">Drupalizing</a> 
-                </div>  
-            </div> 
+            </div>
         
         </div> 
             
